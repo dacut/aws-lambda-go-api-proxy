@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/aws/aws-lambda-go/events"
-	ginadapter "github.com/awslabs/aws-lambda-go-api-proxy/gin"
+	ginadapter "github.com/dacut/aws-lambda-go-api-proxy/gin"
 	"github.com/gin-gonic/gin"
 
 	. "github.com/onsi/ginkgo"

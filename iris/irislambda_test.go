@@ -5,7 +5,7 @@ import (
 	"log"
 
 	"github.com/aws/aws-lambda-go/events"
-	irisadapter "github.com/awslabs/aws-lambda-go-api-proxy/iris"
+	irisadapter "github.com/dacut/aws-lambda-go-api-proxy/iris"
 	"github.com/kataras/iris/v12"
 
 	. "github.com/onsi/ginkgo"

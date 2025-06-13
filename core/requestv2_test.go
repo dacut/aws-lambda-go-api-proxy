@@ -3,15 +3,16 @@ package core_test
 import (
 	"context"
 	"encoding/base64"
-	"github.com/onsi/gomega/gstruct"
 	"io/ioutil"
 	"math/rand"
 	"os"
 	"strings"
 
+	"github.com/onsi/gomega/gstruct"
+
 	"github.com/aws/aws-lambda-go/events"
 	"github.com/aws/aws-lambda-go/lambdacontext"
-	"github.com/awslabs/aws-lambda-go-api-proxy/core"
+	"github.com/dacut/aws-lambda-go-api-proxy/core"
 
 	. "github.com/onsi/ginkgo"
 	. "github.com/onsi/gomega"
